@@ -1,0 +1,21 @@
+﻿  Reading Qt configuration (C:\Qt\5.14.1\msvc2017_64\bin\qmake.exe)
+  uic View.ui
+  rcc View.qrc
+  moc View.h
+   RCC: Warning: No resources in 'E:\Computer_Graphics\Practice\╨Ы╨░╨▒╨░2\GL_tom\GL_tom\View.qrc'.
+  Data.cpp
+  main.cpp
+  View.cpp
+  qrc_View.cpp
+  moc_View.cpp
+View.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glBegin в функции "protected: virtual void __cdecl View::paintGL(void)" (?paintGL@View@@MEAAXXZ)
+View.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glColor3f в функции "private: void __cdecl View::visualization_quad_strip(void)" (?visualization_quad_strip@View@@AEAAXXZ)
+View.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glEnd в функции "protected: virtual void __cdecl View::paintGL(void)" (?paintGL@View@@MEAAXXZ)
+View.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glLoadIdentity в функции "protected: virtual void __cdecl View::initializeGL(void)" (?initializeGL@View@@MEAAXXZ)
+View.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glMatrixMode в функции "protected: virtual void __cdecl View::initializeGL(void)" (?initializeGL@View@@MEAAXXZ)
+View.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glOrtho в функции "protected: virtual void __cdecl View::resizeGL(int,int)" (?resizeGL@View@@MEAAXHH@Z)
+View.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glShadeModel в функции "protected: virtual void __cdecl View::initializeGL(void)" (?initializeGL@View@@MEAAXXZ)
+View.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glTexCoord2f в функции "protected: virtual void __cdecl View::paintGL(void)" (?paintGL@View@@MEAAXXZ)
+View.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glTexEnvf в функции "protected: virtual void __cdecl View::initializeGL(void)" (?initializeGL@View@@MEAAXXZ)
+View.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glVertex2i в функции "protected: virtual void __cdecl View::paintGL(void)" (?paintGL@View@@MEAAXXZ)
+E:\Computer_Graphics\Practice\Лаба2\GL_tom\x64\Release\\GL_tom.exe : fatal error LNK1120: неразрешенных внешних элементов: 10
